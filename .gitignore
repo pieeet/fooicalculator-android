@@ -25,3 +25,12 @@ proguard/
 
 # Log Files
 *.log
+
+# Mac OS X clutter
+*.DS_Store
+
+# Windows clutter
+Thumbs.db
+
+# Eclipse Metadata
+.metadata/
