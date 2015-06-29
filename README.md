@@ -1,2 +1,4 @@
 # fooicalculator-android
-Code voor Android cursus
+Code voor Android cursus voor Android Studio
+
+
