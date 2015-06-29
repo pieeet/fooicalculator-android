@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FooiCalculator2.iml" filepath="$PROJECT_DIR$/FooiCalculator2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fooicalculator-android.iml" filepath="$PROJECT_DIR$/fooicalculator-android.iml" />
     </modules>
   </component>
 </project>
-
