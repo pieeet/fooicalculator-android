@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_tip_calculator">Fooi Calculator</string>
+    <string name="menu_instellingen">Instellingen</string>
+    <string name="menu_info">Info</string>
+    <string name="info">Deze versie van Fooi Calculator berekent de fooi op basis van een rekening bedrag en een percentage"</string>
+    <string name="instellingen">Er zijn (nog) geen instellingen die aangepast kunnen worden</string>
+    <string name="app_name">Fooi Calculator</string>
+    <string name="rekening_bedrag_label">Rekening</string>
+    <string name="rekening_bedrag"></string>
+    <string name="fooi_percentage_label">Procent</string>
+    <string name="fooi_percentage">15%</string>
+    <string name="plus_knop">+</string>
+    <string name="min_knop">-</string>
+    <string name="fooi_bedrag_label">Fooi</string>
+    <string name="fooi_bedrag">€ 0,00</string>
+    <string name="totaal_bedrag_label">Totaal</string>
+    <string name="totaal_bedrag">€ 0,00</string>
+    <string name="afronding_label">Afronden</string>
+    <string name="geen_afronding">Geen</string>
+    <string name="fooi_afronding">Fooi</string>
+    <string name="totaal_afronding">Totaal</string>
+    <string name="delen_label">Delen?</string>
+    <string name="bewaar_fooi_percentage_titel">Fooi percentage</string>
+    <string name="bewaar_fooi_percentage_beschrijving">Onthoud het fooi-percentage van de laatste berekening</string>
+    <string name="default_fooi_percentage_beschrijving">Kies een standaard fooi percentage als het fooi percentage niet wordt bewaard</string>
+    <string name="afronding_titel">Afronden?</string>
+    <string name="afronding_beschrijving">kies voor afrondings opties voor de berekening</string>
+
+    <string-array name="delen_array">
+        <item>niet delen</item>
+        <item>door 2-en</item>
+        <item>door 3-en</item>
+        <item>door 4-en</item>
+    </string-array>
+    <string-array name="afronding_opties">
+        <item>Geen</item>
+        <item>Fooi</item>
+        <item>Totaal</item>
+    </string-array>
+    <string-array name="afronding_waardes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="default_fooi_opties">
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+    </string-array>
+    <string-array name="default_fooi_waardes">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+
+    <string name="afronding_default">0</string>
+    <string name="delen_per_persoon">Per persoon</string>
+    <string name="bedrag_per_persoon">€ 0.00</string>
+    <string name="pas_toe_knop">Bereken</string>
+    <string name="title_activity_instellingen">Instellingen</string>
+    <string name="pref_default_fooi_percentage">Standaard fooi %</string>
+    <string name="pref_bewaar_fooi_percentage">Onthouden</string>
+    <string name="pref_kies_afronding">Afrondingsopties</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

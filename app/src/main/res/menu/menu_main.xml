@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".FooiCalculatorActivity">
+    <item
+        android:id="@+id/menu_instellingen"
+        android:title="@string/menu_instellingen"
+        android:icon="@drawable/ic_settings_new"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_info"
+        android:title="@string/menu_info"
+        android:icon="@drawable/ic_about"
+        app:showAsAction="never"
+        />
+</menu>

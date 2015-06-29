@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/bewaar_fooi_percentage_titel"
+        android:key="pref_procent_categorie">
+
+        <CheckBoxPreference
+            android:key="pref_bewaar_percentage"
+            android:title="@string/pref_bewaar_fooi_percentage"
+            android:summary="@string/bewaar_fooi_percentage_beschrijving"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="pref_default_fooi"
+
+            android:title="@string/pref_default_fooi_percentage"
+            android:summary="@string/default_fooi_percentage_beschrijving"
+            android:entries="@array/default_fooi_opties"
+            android:entryValues="@array/default_fooi_waardes">
+        </ListPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/afronding_label"
+        android:key="pref_afronden_categorie">
+        <ListPreference
+            android:key="pref_afronding"
+            android:title="@string/pref_kies_afronding"
+            android:summary="@string/afronding_beschrijving"
+            android:dialogTitle="@string/afronding_titel"
+            android:entries="@array/afronding_opties"
+            android:entryValues="@array/afronding_waardes"
+            android:defaultValue="@string/afronding_default" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

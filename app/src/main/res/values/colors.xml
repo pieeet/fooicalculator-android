@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primair">#141315</color>
+    <color name="secundair">#736C6B</color>
+    <color name="tertiair">#DDE0CE</color>
+    <color name="achtergrond">#A6D39D</color>
+    <color name="donker">#000000</color>
+    <color name="licht">#FFFFFF</color>
+</resources>

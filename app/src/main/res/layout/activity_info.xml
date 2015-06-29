@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity" > <!--verwijst naar java klasse -->
+
+
+    <TextView
+        style="@style/Label"
+        android:id="@+id/info_label"
+        android:text="@string/menu_info"
+        />
+
+    <TextView
+        style="@style/TextView"
+        android:text="@string/info"
+        android:layout_below="@+id/info_label"/>
+
+</RelativeLayout>
